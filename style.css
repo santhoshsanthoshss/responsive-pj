@@ -17,9 +17,9 @@
     
   
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width: 768px) {
     .column {
-      width: 360px;
+      width: 330px;
       height: 480px;
       margin-left:18px;
       overflow: hidden;
@@ -31,12 +31,13 @@
 img{
     width: 400px;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width: 768px) {
     img {
       width:359px;
       
     }
   }
+
 
 h1{
     font-size: 22px;
@@ -46,8 +47,14 @@ p{
     margin-left: 25px;
     line-height: 30px;
 }
+@media screen and (max-width: 768px) {
+    p {
+    line-height: 22px;
+      
+    }
+  }
 h3{
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 25px;
     position: absolute;
 }
@@ -59,4 +66,7 @@ button{
     border-radius: 5px;
     margin-left: 43%;
     margin-top: 23px;
+}
+hr{
+    margin-top: 40%;
 }
